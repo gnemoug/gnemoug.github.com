@@ -9,14 +9,24 @@ img { border: 1px solid #808A87; }
   width:1080px;
   margin:25px auto;
 }
-#left {
+#left{
   float:left;
-  width:60%;
+  width:35%;
   text-align: right;
-  padding-right: 100px;
+  padding-right: 10px;
+  margin-top:100px;
+}
+#left #div2{
+    margin-top:300px;
+}
+#middle{
+  float:left;
+  width:30%;
+  text-align: right;
+  padding-right: 10px;
 }
 #right {
-  float:left;
+  float:right;
   width:30%;
 }
 #code pre {
